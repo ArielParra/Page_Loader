@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Page loader",
+  "version": "1.0",
+  "description": "Page loader",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "notifications",
+    "tabs",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Page loader",
+    "default_popup": "popup/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}

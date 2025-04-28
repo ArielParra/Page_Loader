@@ -3,8 +3,8 @@ scrolling = false;
 function startScrolling() {
   scrolling = true;
 
-  const finish_msg = "Carga terminada";
-  const maxNoNewContentCount = 500; 
+  const finish_msg = "Loading Stopped";
+  const maxNoNewContentCount = 500; // adjust this value to match the speed of your PC 
   let lastHeight = document.body.scrollHeight;
   let noNewContentCount = 0;
 

@@ -4,6 +4,8 @@
 
 Built for businesses, freelancers, and workers who rely on fully-loaded web pages for tasks like content review, data collection, research, etc.
 
+![gif](./gif.gif)
+
 ---
 
 ## 🚀 Features

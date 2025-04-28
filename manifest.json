@@ -11,7 +11,8 @@
     "alarms"
   ],
   "background": {
-    "service_worker": "background.js"
+    // "scripts": ["background.js"], // uncommemt this line if you are using manifest v2
+    "service_worker": "background.js" 
   },
   "action": {
     "default_title": "Page loader",
